@@ -28,7 +28,8 @@ body{
     }
     .error {
         
-        display: block;
+        display: flex;
+        flex-flow: row wrap;
         width: 85%;
         height: auto;
         margin: 0 auto;
@@ -36,12 +37,12 @@ body{
     
     img{
         width: 80%;
-        height: 50%;
+        height: auto;
         margin: 0 auto;
     }
     .text {
-        width: 40vw;
-        margin: 0 1.5rem;
+        width: 70vw;
+        margin: 0 auto;
         height: 95%;
         margin: 0 2rem;
        
